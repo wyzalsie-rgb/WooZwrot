@@ -1,0 +1,33 @@
+/* WC EU Return Button — admin styles */
+
+.wcer-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.wcer-status--pending    { background: #fff8e1; color: #8a6d00; }
+.wcer-status--processing { background: #e3f2fd; color: #1565c0; }
+.wcer-status--approved   { background: #e8f5e9; color: #2e7d32; }
+.wcer-status--rejected   { background: #fce4ec; color: #c62828; }
+
+.wcer-actions .button {
+    margin: 0 2px 4px 0;
+    font-size: 11px;
+    padding: 2px 8px;
+}
+
+.wcer-status-select {
+    display: none; /* widoczny tylko gdy JS wyłączony — ukryty bo używamy linków */
+}
+
+/* Kolumny tabeli */
+.column-return_id   { width: 80px; }
+.column-order       { width: 90px; }
+.column-customer    { width: 200px; }
+.column-product     { width: 160px; }
+.column-reason      { width: 160px; }
+.column-status      { width: 110px; }
+.column-date        { width: 130px; }

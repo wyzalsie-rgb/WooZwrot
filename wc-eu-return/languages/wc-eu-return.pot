@@ -1,0 +1,279 @@
+# Copyright (C) 2026 ShowClub
+# This file is distributed under the same license as the WC EU Return Button plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC EU Return Button 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/wc-eu-return\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI 2.x\n"
+"X-Domain: wc-eu-return\n"
+
+#: wc-eu-return.php
+msgid "WC EU Return Button wymaga aktywnej wtyczki WooCommerce."
+msgstr ""
+
+#: includes/class-return-post-type.php
+msgid "Zwroty"
+msgstr ""
+
+msgid "Wnioski zwrotu"
+msgstr ""
+
+msgid "Wniosek zwrotu"
+msgstr ""
+
+msgid "Dodaj wniosek"
+msgstr ""
+
+msgid "Dodaj nowy wniosek"
+msgstr ""
+
+msgid "Edytuj wniosek"
+msgstr ""
+
+msgid "Zobacz wniosek"
+msgstr ""
+
+msgid "Szukaj wniosków"
+msgstr ""
+
+msgid "Nie znaleziono wniosków"
+msgstr ""
+
+msgid "Brak wniosków w koszu"
+msgstr ""
+
+msgctxt "status zwrotu"
+msgid "Zgłoszony"
+msgstr ""
+
+msgctxt "status zwrotu"
+msgid "W trakcie"
+msgstr ""
+
+msgctxt "status zwrotu"
+msgid "Zatwierdzony"
+msgstr ""
+
+msgctxt "status zwrotu"
+msgid "Odrzucony"
+msgstr ""
+
+#: includes/class-return-post-type.php
+msgid "Zwrot #%s — zamówienie #%s"
+msgstr ""
+
+#: includes/class-my-account.php
+msgid "Moje zwroty"
+msgstr ""
+
+msgid "Nieprawidłowe zamówienie."
+msgstr ""
+
+msgid "Nie masz dostępu do tego zamówienia."
+msgstr ""
+
+msgid "Minął 14-dniowy termin odstąpienia od umowy dla tego zamówienia."
+msgstr ""
+
+msgid "Zgłoś zwrot"
+msgstr ""
+
+#: includes/class-return-form.php
+msgid "Błąd weryfikacji formularza. Spróbuj ponownie."
+msgstr ""
+
+msgid "Musisz być zalogowany, aby zgłosić zwrot."
+msgstr ""
+
+msgid "Brak identyfikatora zamówienia."
+msgstr ""
+
+msgid "Minął 14-dniowy termin odstąpienia od umowy."
+msgstr ""
+
+msgid "Wybierz produkt do zwrotu."
+msgstr ""
+
+msgid "Wybierz powód odstąpienia od umowy."
+msgstr ""
+
+msgid "Musisz potwierdzić zapoznanie się z polityką zwrotów."
+msgstr ""
+
+msgid "Wystąpił błąd podczas zapisywania wniosku. Spróbuj ponownie."
+msgstr ""
+
+msgid "Twój wniosek o zwrot został złożony. Otrzymasz potwierdzenie na e-mail."
+msgstr ""
+
+msgid "Zmieniłem/am zdanie"
+msgstr ""
+
+msgid "Produkt wadliwy lub uszkodzony"
+msgstr ""
+
+msgid "Produkt niezgodny z opisem"
+msgstr ""
+
+msgid "Otrzymałem/am niewłaściwy produkt"
+msgstr ""
+
+msgid "Inne"
+msgstr ""
+
+#: includes/emails/class-email-customer-return-submitted.php
+msgid "Potwierdzenie wniosku zwrotu (klient)"
+msgstr ""
+
+msgid "Wysyłane do klienta po złożeniu wniosku o zwrot."
+msgstr ""
+
+msgid "Twój wniosek o zwrot #{return_id} został złożony"
+msgstr ""
+
+msgid "Wniosek o zwrot przyjęty"
+msgstr ""
+
+#: includes/emails/class-email-admin-return-submitted.php
+msgid "Nowy wniosek zwrotu (sklep)"
+msgstr ""
+
+msgid "Wysyłane do administratora sklepu po złożeniu nowego wniosku o zwrot."
+msgstr ""
+
+msgid "Nowy wniosek o zwrot #{return_id} — zamówienie #{order_number}"
+msgstr ""
+
+msgid "Nowy wniosek o zwrot"
+msgstr ""
+
+msgid "Adres e-mail odbiorcy"
+msgstr ""
+
+msgid "Podaj adres e-mail, na który mają trafiać zgłoszenia. Wiele adresów oddziel przecinkami."
+msgstr ""
+
+#: includes/emails/class-email-customer-return-status.php
+msgid "Zmiana statusu zwrotu (klient)"
+msgstr ""
+
+msgid "Wysyłane do klienta gdy administrator zmieni status wniosku o zwrot."
+msgstr ""
+
+msgid "Status Twojego wniosku #{return_id} zmienił się na: {new_status}"
+msgstr ""
+
+msgid "Aktualizacja wniosku o zwrot"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Wniosek"
+msgstr ""
+
+msgid "Zamówienie"
+msgstr ""
+
+msgid "Klient"
+msgstr ""
+
+msgid "Produkt"
+msgstr ""
+
+msgid "Powód"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Data zgłoszenia"
+msgstr ""
+
+msgid "Akcje"
+msgstr ""
+
+msgid "Błąd bezpieczeństwa."
+msgstr ""
+
+msgid "Wszystkie statusy"
+msgstr ""
+
+#: templates/my-account/return-list.php
+msgid "Nie masz jeszcze żadnych wniosków o zwrot."
+msgstr ""
+
+msgid "Nr wniosku"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+#: templates/my-account/return-form.php
+msgid "Odstąpienie od umowy — zamówienie #%s"
+msgstr ""
+
+msgid "Zgodnie z Dyrektywą UE 2023/2673 masz prawo odstąpić od umowy zawartej na odległość w ciągu 14 dni bez podawania przyczyny. Wypełnij poniższy formularz, aby elektronicznie złożyć oświadczenie o odstąpieniu."
+msgstr ""
+
+msgid "Produkt do zwrotu"
+msgstr ""
+
+msgid "— wybierz produkt —"
+msgstr ""
+
+msgid "szt.: %d"
+msgstr ""
+
+msgid "Powód odstąpienia"
+msgstr ""
+
+msgid "— wybierz powód —"
+msgstr ""
+
+msgid "Dodatkowy opis (opcjonalnie)"
+msgstr ""
+
+msgid "Opcjonalnie opisz powód zwrotu..."
+msgstr ""
+
+msgid "Zapoznałem/am się z <a href=\"%s\">polityką zwrotów</a> i składam oświadczenie o odstąpieniu od umowy."
+msgstr ""
+
+msgid "Złóż wniosek o zwrot"
+msgstr ""
+
+msgid "Anuluj"
+msgstr ""
+
+#: templates/emails/customer-new-return.php
+msgid "Twój wniosek o odstąpienie od umowy został przyjęty. Poniżej znajdziesz szczegóły zgłoszenia."
+msgstr ""
+
+msgid "Opis"
+msgstr ""
+
+msgid "O każdej zmianie statusu Twojego wniosku poinformujemy Cię mailowo."
+msgstr ""
+
+#: templates/emails/admin-new-return.php
+msgid "Nowy wniosek o odstąpienie od umowy został złożony przez klienta."
+msgstr ""
+
+msgid "Zarządzaj wnioskami"
+msgstr ""
+
+#: templates/emails/customer-return-status.php
+msgid "Status Twojego wniosku #%d został zmieniony."
+msgstr ""
+
+msgid "Nowy status"
+msgstr ""
+
+msgid "Zobacz moje zwroty"
+msgstr ""

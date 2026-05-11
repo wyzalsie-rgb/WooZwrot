@@ -1,0 +1,125 @@
+/* WC EU Return Button — frontend styles */
+
+/* ===== Przycisk Zgłoś zwrot ===== */
+.wc-eu-return-btn {
+    display: inline-block;
+    font-size: 0.85em;
+    padding: 6px 14px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.wc-eu-return-btn:hover {
+    background-color: #7f54b3;
+    color: #fff;
+    border-color: #7f54b3;
+}
+
+/* ===== Status badge ===== */
+.wcer-status {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.wcer-status--pending {
+    background-color: #fff8e1;
+    color: #8a6d00;
+    border: 1px solid #ffe082;
+}
+
+.wcer-status--processing {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+}
+
+.wcer-status--approved {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.wcer-status--rejected {
+    background-color: #fce4ec;
+    color: #c62828;
+    border: 1px solid #f48fb1;
+}
+
+/* ===== Lista zwrotów ===== */
+.wc-eu-return-list {
+    margin-top: 1em;
+}
+
+.wc-eu-return-list table {
+    width: 100%;
+}
+
+/* ===== Formularz zwrotu ===== */
+.wc-eu-return-form-wrap {
+    max-width: 680px;
+}
+
+.wc-eu-return-form-wrap h3 {
+    margin-bottom: 0.5em;
+}
+
+.wcer-legal-note {
+    background: #f9f9f9;
+    border-left: 4px solid #7f54b3;
+    padding: 12px 16px;
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.6;
+}
+
+#wc-eu-return-form .form-row {
+    margin-bottom: 1.2em;
+}
+
+#wc-eu-return-form select,
+#wc-eu-return-form textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+#wc-eu-return-form .required {
+    color: #e2401c;
+}
+
+/* ===== Responsywność ===== */
+@media (max-width: 600px) {
+    .wc-eu-return-list table thead {
+        display: none;
+    }
+
+    .wc-eu-return-list table tr {
+        display: block;
+        margin-bottom: 1em;
+        border: 1px solid #eee;
+        padding: 8px;
+    }
+
+    .wc-eu-return-list table td {
+        display: block;
+        text-align: right;
+        padding: 4px 8px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .wc-eu-return-list table td::before {
+        content: attr(data-title);
+        float: left;
+        font-weight: 600;
+        color: #555;
+    }
+}
